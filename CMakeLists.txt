@@ -71,8 +71,6 @@ find_package(catkin REQUIRED COMPONENTS
    JointFwVersionArray.msg
    Point.msg
    Frame.msg
-   SystemCommand.msg
-   CollisionFromAlgoToState.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -84,7 +82,7 @@ find_package(catkin REQUIRED COMPONENTS
    InverseKinematics.srv
    SoftwareVersion.srv
    ControlSwitch.srv
-   SystemCommandSrv.srv
+   SystemCommand.srv
    LoadConfigurationFile.srv ## 180305 GC&IL
  )
 
